@@ -1,2 +1,2 @@
-# todo-app-w-rtk-query
+# Todo app
  Simple todo app built with React and RTK Query.
