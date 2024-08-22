@@ -14,7 +14,7 @@ export const apiSlice = createApi({
     endpoints: (builder) => ({
         getTodos: builder.query<Todo[], void>({
             query: () => '/todos',
-            transformResponse: (res: Todo[]) => res.sort((a, b) => b.id - a.id),
+            transformResponse: (res: Todo[]) => res.sort((a, b) => b.id - a.id), // Sort by id in descending order
             providesTags: ['Todos']
         }),
         addTodo: builder.mutation<Todo, Partial<Todo>>({
