@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "id": "1937",
+      "userId": 1,
+      "title": "eat dinner",
+      "completed": true
+    },
+    {
+      "id": "e501",
+      "userId": 1,
+      "title": "learn rtk query",
+      "completed": false
+    },
+    {
+      "id": "2bd4",
+      "userId": 1,
+      "title": "test my app",
+      "completed": false
+    }
+  ]
+}
